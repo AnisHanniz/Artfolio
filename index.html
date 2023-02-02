@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,10 +28,10 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about" data-scroll-time="10000">About</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" data-scroll-time="10000">Contact</a>
             </li>
         </ul>
     </header>
@@ -37,7 +40,8 @@
         <div class="container">
             <div class="row">
                 
-                </div><div class="project shadow-large">
+                
+                <div class="project shadow-large">
                     <div class="project-img">
                         <img src="images/2.png" />
                     </div>
@@ -45,7 +49,20 @@
                     <div class="project-info">
                 
                     </div>
-                </div><div class="project shadow-large">
+
+                <div class="project shadow-large">
+                    <div class="project-video">
+                        <video controls autoplay>
+                            <source src="images/after.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                
+                    </div>
+
+                </div>
+                <div class="project shadow-large">
                     <div class="project-img">
                         <img src="images/3.png" />
                     </div>
